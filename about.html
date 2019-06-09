@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <!--Custom Javascript-->
+    <script src="myScript.js"></script>
+
+</head>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <h1 class="header navbar" id="header" style="color: white;">5280 Digital Construction</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--This is where content changes-->
+<body style="margin-top: 120px; margin-bottom: 250px; padding:0;  height:auto;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img src="support_files/construction.jpg" alt="" class="img-fluid" id="profile">
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">
+                    Make tomorrow possible</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor sapien eget
+                    consectetur ornare. Donec aliquet nisi non lorem vestibulum, sed porta ex congue. Pellentesque
+                    laoreet sed odio ac fermentum. Curabitur fermentum metus quis dolor pulvinar efficitur. Class aptent
+                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris pharetra, quam
+                    et posuere bibendum, massa eros commodo quam, in bibendum dui tellus sit amet elit. Aliquam dictum
+                    vel lectus et cursus. Suspendisse eu dolor convallis, blandit tellus a, placerat leo. Ut non tortor
+                    felis. In nec ultricies urna, aliquam ultrices purus. Praesent non augue vehicula, gravida orci non,
+                    faucibus sem. Fusce id rutrum ipsum, at molestie turpis. Praesent iaculis metus nec mi venenatis,
+                    quis lobortis nulla bibendum. Sed placerat nisl quis dui malesuada sodales. Proin molestie, justo eu
+                    interdum tristique, massa mi malesuada ex, et congue dolor dui ac libero.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <h4 class="text-center">bootstrap makes it easy to got mobile</h4>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor sapien eget
+                    consectetur ornare. Donec aliquet nisi non lorem vestibulum, sed porta ex congue. Pellentesque
+                    laoreet sed odio ac fermentum. Curabitur fermentum metus quis dolor pulvinar efficitur. Class aptent
+                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris pharetra, quam
+                    et posuere bibendum, massa eros commodo quam, in bibendum dui tellus sit amet elit. Aliquam dictum
+                    vel lectus et cursus. Suspendisse eu dolor convallis, blandit tellus a, placerat leo. Ut non tortor
+                    felis. In nec ultricies urna, aliquam ultrices purus. Praesent non augue vehicula, gravida orci non,
+                    faucibus sem. Fusce id rutrum ipsum, at molestie turpis. Praesent iaculis metus nec mi venenatis,
+                    quis lobortis nulla bibendum. Sed placerat nisl quis dui malesuada sodales. Proin molestie, justo eu
+                    interdum tristique, massa mi malesuada ex, et congue dolor dui ac libero.
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md" id="left">
+                <button type="button" id="idisappear" class="btn btn-primary btn-lg btn-block">I'll Disapear when the
+                    screen gets smaller than 800px</button>
+            </div>
+            <div class="col-md" id="right">
+                <h2 class="text-center">A little more info</h2>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor sapien eget consectetur
+                    ornare. Donec aliquet nisi non lorem vestibulum, sed porta ex congue. Pellentesque laoreet sed odio
+                    ac fermentum. Curabitur fermentum metus quis dolor pulvinar efficitur. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris pharetra, quam et posuere
+                    bibendum, massa eros commodo quam, in bibendum dui tellus sit amet elit. Aliquam dictum vel lectus
+                    et cursus. Suspendisse eu dolor convallis, blandit tellus a, placerat leo. Ut non tortor felis. In
+                    nec ultricies urna, aliquam ultrices purus. Praesent non augue vehicula, gravida orci non, faucibus
+                    sem. Fusce id rutrum ipsum, at molestie turpis. Praesent iaculis metus nec mi venenatis, quis
+                    lobortis nulla bibendum. Sed placerat nisl quis dui malesuada sodales. Proin molestie, justo eu
+                    interdum tristique, massa mi malesuada ex, et congue dolor dui ac libero.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+<footer>
+    <button id="contact_btn" onClick="contactUs()">Contact Us</button>
+</footer>
+
+</html>

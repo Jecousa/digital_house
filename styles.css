@@ -49,12 +49,13 @@ article{
 
 footer{
     width:100%;
-    height:40px;   
+    height:auto;   
     position: fixed;
     bottom:0;
     left:0;
     right: 0;
     background-color:#5a88dd;
+    padding: 0 0 10px 0;
 }
 nav{
     text-align: center;
@@ -63,7 +64,7 @@ nav{
 header{
     padding: 1px; 
     background:#5a88dd; 
-    height: 100px; 
+    height: auto; 
     width: 100%; 
     top: 0; left: 0; 
     position: absolute;
